@@ -8,3 +8,8 @@ class Simple(models.Model):
 
     def __str__(self):
         return self.url
+
+
+class DateExample(models.Model):
+    the_date = models.DateTimeField()
+
